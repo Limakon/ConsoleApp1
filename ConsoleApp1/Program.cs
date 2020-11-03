@@ -877,7 +877,7 @@ namespace ConsoleApp1
                   }
               } */
 
-            /*   {
+            /* {
                    ReadLibraryFile("Bibl.txt");
 
                }
@@ -891,7 +891,7 @@ namespace ConsoleApp1
                        LibraryEntry entry = new LibraryEntry
                        {
                            Author = splittedString[0],
-                           BookName = splittedString [ 1]
+                        BookName = splittedString [ 1] BookName = splittedString [ 1]
                        }
 
 
@@ -971,8 +971,12 @@ namespace ConsoleApp1
 
 
 
+
         }
-
-
     }
-     
+}
+
+
+
+
+
